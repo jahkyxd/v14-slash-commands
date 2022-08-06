@@ -1,0 +1,19 @@
+{
+  "name": "v14-empty",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "v14 empty bot",
+  "main": "jahky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jahky",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.1",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.5.0",
+    "tr-doviz": "^1.3.0"
+  }
+}

@@ -1,0 +1,32 @@
+import Jahky from "../Base/Jahky.Client.js";
+import {
+    Guild,
+    CommandInteraction,
+    EmbedBuilder,
+    SlashCommandBuilder,
+    InteractionType,
+} from "discord.js";
+
+export default {
+    name: "",
+    permissions: "0",
+    data: new SlashCommandBuilder()
+        .setName("")
+        .setDescription(""),
+         enabled: true,
+         help: "",
+    /**
+     * @param {Jahky} client
+     * @param {CommandInteraction} interaction
+     * @param {EmbedBuilder} embed
+     * @param {Guild} guild
+     */
+
+    async execute(client, interaction, embed, guild) {
+        if (interaction.type !== InteractionType.ApplicationCommand) return
+
+      
+    },
+};
+
+
